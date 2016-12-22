@@ -26,14 +26,14 @@ export default class App extends Component{
         console.log();
         return(
             <div className="nmr-app">
-                <head>
+                <header>
                     <div className="logo"></div>
                     <h1>网易云音乐</h1>
-                </head>
+                </header>
                 <main>
                     <aside className="sidebar">
                         <PlayList userId={this.props.userId}/>
-                    </aside>t
+                    </aside>
                     <section className="content"></section>
                 </main>
                 <footer></footer>
